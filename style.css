@@ -18,6 +18,12 @@ body{
     box-sizing: border-box;
 }
 
+.olympic-shop, .road-to-paris, .about-the-games{
+    padding: 50px;
+    clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
+}
+
+
 .header{
     background-color: white;
     font-family: 'Paris2024', sans-serif;
@@ -77,6 +83,7 @@ li:hover{
     display: flex;
     align-items: flex-end;
     flex-direction: column;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
 }
 
 .header-hero-image{
@@ -114,6 +121,10 @@ li:hover{
 .countdown h1{
     text-align: center;
     font-size: 50px;
+    background: linear-gradient(to right, #ED2329, #002395);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;;
 }
 
 .countdown{
@@ -132,6 +143,10 @@ li:hover{
 .road-to-paris h1{
     text-align: center;
     font-size: 50px;
+    background: linear-gradient(to right, #ED2329, #002395);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .road-to-paris{
@@ -166,6 +181,10 @@ li:hover{
 .about-the-games h1{
     text-align: center;
     font-size: 50px;
+    background: linear-gradient(to right, #ED2329, #002395);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .about-the-games{
     font-family: 'Poppins Regular', sans-serif;
@@ -192,6 +211,78 @@ li:hover{
     font-weight: 200;
     background-color: #D2E5F0;
 }
+
+.paris-logo-sample{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.paris-logo-sample img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.olympic-shop h1{
+    text-align: center;
+    font-size: 50px;
+    background: linear-gradient(to right, #ED2329, #002395);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.olympic-shop{
+    font-family: 'Poppins Regular', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #D2E5F0;
+}
+.olympic-shop-content{
+    text-align: center;
+}
+
+.shop-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.shop-item img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.buy{
+    display: flex;
+    justify-content: space-between;
+    width: 100;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.buy-now{
+    font-family: 'Poppins Regular', sans-serif;
+    font-weight: 700;
+    width: 100px;
+    height: 30px;
+    background-color: #333333;
+    border: none;
+}
+
+.shop-item{
+    background-color: white;
+    padding: 10px;
+}
+
+
+
 
 
 
